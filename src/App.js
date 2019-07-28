@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+var firebase = require('firebase');
+var firebaseui = require('firebaseui');
 
 function App() {
   return (
