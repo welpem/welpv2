@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-var firebase = require('firebase');
+var firebase = require('firebase/app');
+require('firebase/auth');
+require('firebase/firestore');
+
 var firebaseui = require('firebaseui');
 
 function App() {
